@@ -1,0 +1,30 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.17.3",
+    "npm": "6.14.13"
+  },
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliannaeapicella/streaming-media-assignment.git"
+  },
+  "author": "Julianna Apicella",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/juliannaeapicella/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/juliannaeapicella/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
+}
